@@ -4,32 +4,41 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #column{
     display: flex;
     flex-flow: column;
-    align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 #row{
     display: flex;
     flex-flow: row;
-    justify-content: space-evenly;
+    gap: 1rem;
 }
 
 label{
+    width: 60%;
     background-color: grey;
 }
 
 input{
+    width: 3rem;
     border: .1rem solid black;
 }
 
 button{
+    width: 100%;
     background-color: cadetblue;
 }
  
 .result{
+    width: 3rem;
     background-color: white;
     border: .1rem solid black;
 }

@@ -1,9 +1,9 @@
-const btn = document.querySelector('.calculate')
 
+document.getElementById('calculate').addEventListener('click', function(){
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
 
-btn.addEventListener('click', function(){
-    var num1 = parseFloat(document.getElementById('num1').Value);
-    var num2 = parseFloat(document.getElementById('num2').Value);
+    
 
     var sum = num1 + num2;
 
