@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#column{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#row{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+label{
+    background-color: grey;
+}
+
+input{
+    border: .1rem solid black;
+}
+
+button{
+    background-color: cadetblue;
+}
+ 
+.result{
+    background-color: white;
+    border: .1rem solid black;
+}
